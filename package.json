@@ -1,0 +1,17 @@
+{
+  "name": "serverpoc",
+  "version": "1.0.0",
+  "description": "this test serial and http connection between external devices",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node test.js",
+    "build": "npm tsc"
+  },
+  "author": "Hagay Levy",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0",
+    "serialport": "^8.0.5"
+  }
+}

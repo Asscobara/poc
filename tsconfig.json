@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2016",
+        "declaration": false,
+        "outDir": "./bin"
+    },
+    "include": [
+      "*.ts"
+    ],
+    "files": ["test"],
+    "outDir": "bin"
+  }
