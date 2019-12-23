@@ -2,7 +2,7 @@ import { log } from "./core/logger";
 import { SerialConection } from "./core/connection";
 
 function greeter(msg: string) {
-    return `Testing ${msg}!`
+    return msg;
   }
 
 log(greeter('********************************* COM Port *********************************'));
