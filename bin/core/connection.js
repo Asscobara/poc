@@ -27,3 +27,6 @@ class SerialConection extends Connection {
     }
 }
 exports.SerialConection = SerialConection;
+class HttpConnection extends Connection {
+}
+exports.HttpConnection = HttpConnection;

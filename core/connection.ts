@@ -1,6 +1,5 @@
 
 import * as SerialPort from 'serialport';
-import * as http from "http";
 
 export abstract class Connection<T> {
   
